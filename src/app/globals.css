@@ -3,7 +3,8 @@
 
 body{background: #111111; font-family: "Raleway", sans-serif;}
 
-.container-fluid{padding: 0px 50px;}
+.container-fluid{padding: 0px 40px;}
+.text-common{color:#fa5b0f;}
 
 .homePage{width: 100%; height: 100vh; position: relative; overflow: hidden;}
 .homePage::before{content: '';
@@ -17,4 +18,8 @@ body{background: #111111; font-family: "Raleway", sans-serif;}
 
 
  .homePage .wrapper{height: 100vh; padding: 45px 0px}
- .homePage .imgWrap{width:85%; height: 400px; background: #000; border-radius: 30px;}    
+ .homePage .imgWrap{width:85%; height: 400px; background: #000; border-radius: 30px; overflow: hidden;}  
+ .homePage .imgWrap img{width: 100% !important; height: auto !important;}
+
+ .homePage .wrapper .col-md-8{padding: 30px 100px;}
+ .homePage .wrapper h1{font-size: 58px;}
