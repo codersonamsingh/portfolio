@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import userImage from '../asserts/images/img.jpg';
+import Button from '@mui/material/Button';
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
               & user friendly experiences, I am passionate about building excellent software that improve the lives
               of those around me.
             </p>
+
+
+            <Button className='btn-common'>Contained</Button>
 
           </div>
         </div>
