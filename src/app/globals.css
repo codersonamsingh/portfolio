@@ -18,9 +18,11 @@ body{background: #111111; font-family: "Roboto", sans-serif;}
 
 
  .homePage .wrapper{height: 100vh; padding: 45px 0px}
- .homePage .imgWrap{width:85%; height: 400px; background: #000; border-radius: 30px; overflow: hidden;}  
+ .homePage .imgWrap{width:85%; height: auto; background: #000; border-radius: 30px; overflow: hidden;}  
  .homePage .imgWrap img{width: 100% !important; height: auto !important;}
 
  .homePage .wrapper .col-md-8{padding: 30px 100px;}
- .homePage .wrapper h1{font-size: 58px;}
- .homePage .wrapper p{line-height: 30px; font-size: 20px; font-weight: lighter;}
+ .homePage .wrapper h1{font-size: 58px; font-weight: bolder !important;}
+ .homePage .wrapper .line{display: block; width: 50px; height: 5px; background: #fa5b0f; position: relative; top: 20px;
+border-radius: 10px;}
+ .homePage .wrapper p{line-height: 30px; font-size: 18px; font-weight: lighter;}

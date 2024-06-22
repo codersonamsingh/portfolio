@@ -14,9 +14,11 @@ export default function Home() {
             </div>
           </div>
           <div className="col-md-8">
-            <h1 className='text-white font-weight-bold'><span className='text-common d-block'>I'M SONAM SINGH.</span>
+            <div className='d-flex'>
+              <span className='line mr-4'></span>
+            <h1 className='text-white font-weight-bold mt-0'><span className='text-common d-block'>I'M SONAM SINGH.</span>
               WEB DESIGNER
-            </h1>
+            </h1></div>
 
             <p className='text-white'>I'm a Tunisian based web designer & front-end developer focused on crafting clean
               & user friendly experiences, I am passionate about building excellent software that improve the lives
