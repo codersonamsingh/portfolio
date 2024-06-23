@@ -26,8 +26,9 @@ export default function Home() {
               of those around me.
             </p>
 
-
-            <Button className='btn-common'>Contained</Button>
+             <div className='d-flex align items center'>
+            <Button className='btn-common'>More About Me</Button>
+            </div>
 
           </div>
         </div>

@@ -7,7 +7,7 @@ body{background: #111111; font-family: "Roboto", sans-serif;}
 .text-common{color:#fa5b0f;}
 
 
-.btn-common{padding: 15px 25px !important; color: #fa5b0f; border: 1px solid #fa5b0f;}
+.btn-common{padding: 10px 25px !important; color: #fa5b0f; border: 1px solid #fa5b0f; border-radius: 30px !important;}
 
 .homePage{width: 100%; height: 100vh; position: relative; overflow: hidden;}
 .homePage::before{content: '';
