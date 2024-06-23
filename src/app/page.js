@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import userImage from '../asserts/images/img.jpg';
 import Button from '@mui/material/Button';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
+
 
 export default function Home() {
   return (
@@ -27,8 +30,11 @@ export default function Home() {
             </p>
 
              <div className='d-flex align items center'>
-            <Button className='btn-common'>More About Me <span className='icon d-flex align-item-center 
-            justify-content-center'><ArrowForwardItem></ArrowForwardItem></span></Button>
+            <Button className='btn-common iconBtn'>More About Me <span className='icon d-flex align-item-center 
+            justify-content-center'><ArrowForwardIcon></ArrowForwardIcon></span></Button>
+            <Button className='btn-common iconBtn ml-4'>Download CV <span className='icon d-flex align-item-center 
+            justify-content-center'><FileDownloadOutlinedIcon></FileDownloadOutlinedIcon></span></Button>
+            
             </div>
 
           </div>
