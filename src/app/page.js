@@ -27,7 +27,8 @@ export default function Home() {
             </p>
 
              <div className='d-flex align items center'>
-            <Button className='btn-common'>More About Me</Button>
+            <Button className='btn-common'>More About Me <span className='icon d-flex align-item-center 
+            justify-content-center'><ArrowForwardItem></ArrowForwardItem></span></Button>
             </div>
 
           </div>
