@@ -31,9 +31,9 @@ export default function Home() {
 
              <div className='d-flex align items center'>
             <Button className='btn-common iconBtn'>More About Me <span className='icon d-flex align-item-center 
-            justify-content-center'><ArrowForwardIcon></ArrowForwardIcon></span></Button>
+            justify-content-center'><ArrowForwardIcon/></span></Button>
             <Button className='btn-common iconBtn ml-4'>Download CV <span className='icon d-flex align-item-center 
-            justify-content-center'><FileDownloadOutlinedIcon></FileDownloadOutlinedIcon></span></Button>
+            justify-content-center'><FileDownloadOutlinedIcon/></span></Button>
             
             </div>
 
