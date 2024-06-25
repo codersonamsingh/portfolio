@@ -8,13 +8,13 @@ body{background: #111111; font-family: "Roboto", sans-serif;}
 
 
 .btn-common{padding: 10px 25px !important; color: #fff; border: 1px solid #fa5b0f; border-radius: 30px !important;
-font-weight: 600 !important; position: relative;}
+font-weight: 600 !important; position: relative; margin-top: 20px;}
 
 .btn-common .icon{position: absolute; top: 0px; right: 5px; background: #fa5b0f; border-radius: 100%; width: 35px;
-height: 35px;}
+height: 35px; margin-top: 5px;}
 .btn-common .icon svg{color: #fff !important; font-size: 30px !important;}
 
-.iconBtn{padding-right: 50px !important; overflow: hidden;}
+.iconBtn{padding-right: 60px !important; overflow: hidden;}
 .iconBtn::after{content: ''; width: 0px; height: 100%; background: #fa5b0f; position: absolute; top: 0px;
 right: 0px; z-index: -1; transition: all 0.3s ease-in-out;}
 

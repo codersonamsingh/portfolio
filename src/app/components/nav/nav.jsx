@@ -1,5 +1,6 @@
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Button from '@mui/material/Button';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import './nav.css';
 
 const Nav=()=>{
@@ -7,11 +8,33 @@ const Nav=()=>{
         <>
         <nav>
             <ul>
+                <li className='btn-list'>
+                <Button className='btn-common iconBtn'>
+                    <span className="title">Home</span>
+                     <span className='icon d-flex align-item-center 
+            justify-content-center'><HomeOutlinedIcon/></span></Button>
+            
+                </li>
+              <li className='btn-list'>
+                <Button className='btn-common iconBtn'>
+                    <span className="title">H2</span>
+                     <span className='icon d-flex align-item-center 
+            justify-content-center'><HomeOutlinedIcon/></span></Button>
+            
+                </li>
                 <li>
                 <Button className='btn-common iconBtn'>
-                    <span className="title">More About Me</span>
+                    <span className="title">Home</span>
                      <span className='icon d-flex align-item-center 
-            justify-content-center'><ArrowForwardIcon/></span></Button>
+            justify-content-center'><HomeOutlinedIcon/></span></Button>
+            
+                </li>
+                <li>
+                <Button className='btn-common iconBtn'>
+                    <span className="title">Home</span>
+                     <span className='icon d-flex align-item-center 
+            justify-content-center'><HomeOutlinedIcon/></span></Button>
+            
                 </li>
             </ul>
             </nav>
