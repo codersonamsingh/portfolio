@@ -1,0 +1,6 @@
+nav{position:fixed; top: 20%; right: 20px; z-index: 1000;}
+nav ul li button .iconBtn{width: 45px !important; height: 45px !important; padding: 0px !important;
+min-width: 45px !important; transition: all 0.3 ease-in-out;}
+nav ul li button .title{display: none;}
+
+nav ul li button.iconBtn.hover{width: 200px !important;}
