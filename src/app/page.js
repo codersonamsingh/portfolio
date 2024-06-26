@@ -4,7 +4,6 @@ import userImage from '../asserts/images/img.jpg';
 import Button from '@mui/material/Button';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
-import Typed from 'typing-ind'
 import { TypeAnimation } from 'react-type-animation';
 
 
