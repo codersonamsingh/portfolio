@@ -21,7 +21,7 @@ const Nav=()=>{
             </Link>
                 </li>
               <li className='btn-list'>
-              <Link href="/">
+              <Link href="about">
                 <Button className='btn-common iconBtn'>
                     <span className="title">About Me</span>
                      <span className='icon d-flex align-item-center 
@@ -29,7 +29,7 @@ const Nav=()=>{
              </Link>
                 </li>
                 <li>
-                <Link href="/">
+                <Link href="portfolio">
                 <Button className='btn-common iconBtn'>
                     <span className="title">Portfolio</span>
                      <span className='icon d-flex align-item-center 
@@ -37,7 +37,7 @@ const Nav=()=>{
              </Link>
                 </li>
                 <li>
-                <Link href="/">
+                <Link href="contact">
                 <Button className='btn-common iconBtn'>
                     <span className="title">Contact</span>
                      <span className='icon d-flex align-item-center 
