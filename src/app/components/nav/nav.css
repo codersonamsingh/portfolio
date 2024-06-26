@@ -1,9 +1,10 @@
-nav{position:fixed; top: 20%; right: 10px; z-index: 1000;}
-nav ul li button.iconBtn{width: 55px !important; height: 35px !important; padding: 10px !important;
-min-width: 40px !important; transition: all 0.3 ease-in-out; border: 15px; align-items: end;}
+nav{position:fixed; top: 20%; right: 20px; z-index: 1000;}
+nav ul li{margin:0px 0px; list-style: none; position: relative; height: 80px;}
+nav ul li button.iconBtn{width: 45px !important; height: 35px !important; padding: 10px !important;
+min-width: 40px !important; transition: all 0.3 ease-in-out; border: 35px; align-items: end;}
 nav ul li button .title{ visibility: hidden; white-space: nowrap; opacity: 0; transition: all 0.3s ease-in-out; }
 
-nav ul li button.iconBtn:hover{width: 200px !important; padding-right: 50px !important;}
+nav ul li button.iconBtn:hover{width: 150px !important; padding-right: 30px !important;}
 nav ul li button.iconBtn:hover .title{visibility: inherit; opacity: 1;}
 nav ul li {
     display: flex;
