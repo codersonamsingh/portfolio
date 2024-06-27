@@ -1,5 +1,7 @@
 import Button from '@mui/material/Button';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
+import CircularProgress from '@mui/joy/CircularProgress';
+import { useCountUp } from 'use-count-up';
 const About=()=>{
 return (
     <section className="aboutPage">
@@ -38,10 +40,66 @@ return (
             
         </div>
         <div className="col part2">
+          <div className='boxes'>
+            <div className='box'>
+              <span className='count d-flex'>3 <span className='ml-2'>+</span></span>
+            <div className='d-flex mt-2'>
+              <span className='line mr-3'></span>
+            <h4>YEARS OF<br/>
+             EXPERIENCE</h4>
+
+            </div>
+
+            </div>
+            <div className='box'>
+              <span className='count d-flex'>10<span className='ml-2'>+</span></span>
+            <div className='d-flex mt-2'>
+              <span className='line mr-3'></span>
+            <h4>COMPLETE<br/>
+              PROJECT
+            </h4>
+
+            </div>
+
+            </div>
+            <div className='box'>
+              <span className='count d-flex'>8<span className='ml-2'>+</span></span>
+            <div className='d-flex mt-2'>
+              <span className='line mr-3'></span>
+            <h4>HAPPY<br/>
+            CUSTOMERS</h4>
+
+            </div>
+
+            </div>
+            <div className='box'>
+              <span className='count d-flex'>8<span className='ml-2'>+</span></span>
+            <div className='d-flex mt-2'>
+              <span className='line mr-3'></span>
+            <h4>HAPPY<br/>
+           COMPANY</h4>
+
+            </div>
+
+            </div>
+
+          </div>
 
         </div>
         
       </div>
+
+      <br/>
+      {/* skills secgtion start here */}
+      <div className='skillSection mt-5'>
+        <h2 className='text-white text-center'>MY SKILLS</h2>
+
+        <div className='row'>
+          <div className='col-md-3'></div>
+        </div>
+
+      </div>
+      {/* skills secgtion end here */}
 
       </div>
       </section>

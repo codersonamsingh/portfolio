@@ -20,12 +20,12 @@ right: 0px; z-index: -1; transition: all 0.3s ease-in-out;}
 
 .iconBtn:hover:after{width:100%}
 
-.hd{font-size: 60px; text-transform: uppercase; color: #fff; font-weight: bolder; position: relative;}
+.hd{font-size: 60px; text-transform: uppercase; color: #fff; font-weight: 900; position: relative;}
 .hd span{color: #fa5b0f;}
 .hd .title-bg{color: rgba(255, 255, 255, 0.07) !important; font-size: 100px;
           position: absolute;
           top: -30px;
-          left: -87px; font-weight: 800; opacity: 0.5;}
+          left: -60px; font-weight: 900; opacity: 0.5;}
 
 .homePage{width: 100%; height: 100vh; position: relative; overflow: hidden;}
 .homePage::before{content: '';
@@ -43,10 +43,10 @@ right: 0px; z-index: -1; transition: all 0.3s ease-in-out;}
  .homePage .imgWrap img{width: 100% !important; height: auto !important;}
 
  .homePage .wrapper .col-md-8{padding: 30px 100px;}
- .homePage .wrapper h1{font-size: 58px; font-weight: bolder !important;}
+ .homePage .wrapper h1{font-size: 50px; font-weight: 900 !important;}
  .homePage .wrapper .line{display: block; width: 50px; height: 5px; background: #fa5b0f; position: relative; top: 20px;
  border-radius: 10px;}
- .homePage .wrapper p{line-height: 30px; font-size: 18px; font-weight: lighter; opacity: 0.7;}
+ .homePage .wrapper p{line-height: 30px; font-size: 17px; font-weight: 200; opacity: 0.7;}
 
  nav{position: fixed; top: 20%; right: 0%; z-index: 1000;}
 
@@ -57,4 +57,11 @@ right: 0px; z-index: -1; transition: all 0.3s ease-in-out;}
 .aboutWrapper .part1 h4{color: rgba(255,255,255,0.7);font-size: 16px; margin-bottom: 20px;}
 .aboutWrapper .part1 h4 span{color: #fff;}
 .aboutWrapper .part1 h4 .smm{font-size: 15px;}
-
+.aboutWrapper .part2 .boxes{display: flex; flex-wrap: wrap; gap: 20px;}
+.aboutWrapper .part2 .boxes .box{width: 47%; height: 150px; border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 7px; padding: 20px;}
+.aboutWrapper .part2 .boxes .box .count{color: #fff; font-size: 50px; font-weight: 900;}
+.aboutWrapper .part2 .boxes .box .count span{font-size: 20px; font-weight: 600; position: relative; top: 10px;}
+.aboutWrapper .part2 .boxes .box h4{font-size: 16px; font-weight: 200; color: #fff; opacity: 0.8;}
+.aboutWrapper .part2 .boxes .box .line{display: block; background: #fff; opacity: 0.8; width: 40px; height: 1px;
+position: relative; top: 5px;}
