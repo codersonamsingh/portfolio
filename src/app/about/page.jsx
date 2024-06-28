@@ -1,9 +1,14 @@
+"use client"
 import Button from '@mui/material/Button';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
-import CircularProgress from '@mui/joy/CircularProgress';
-import { useCountUp } from 'use-count-up';
+import { CircularProgressbar,buildStyles  } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 const About=()=>{
+  const percentage = 66;
 return (
+  
+
+
     <section className="aboutPage">
       <div className="container-fluid">
        <div className="d-flex">
@@ -95,7 +100,20 @@ return (
         <h2 className='text-white text-center'>MY SKILLS</h2>
 
         <div className='row'>
-          <div className='col-md-3'></div>
+          <div className='col-md-3 d-flex flex-column'>
+          <CircularProgressbar value={65} text={`${65}%`} 
+          className='countSpiner'
+          styles={buildStyles({
+   
+                 pathColor: `#fa5b0f`,
+                 textColor: '#fff',
+                 trailColor: '#252525',
+  
+  })}
+  />
+        <br/>
+        <h4 className='text-white text-center m-auto'>HTML</h4>
+          </div>
         </div>
 
       </div>

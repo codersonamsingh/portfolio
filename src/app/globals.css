@@ -65,3 +65,8 @@ right: 0px; z-index: -1; transition: all 0.3s ease-in-out;}
 .aboutWrapper .part2 .boxes .box h4{font-size: 16px; font-weight: 200; color: #fff; opacity: 0.8;}
 .aboutWrapper .part2 .boxes .box .line{display: block; background: #fff; opacity: 0.8; width: 40px; height: 1px;
 position: relative; top: 5px;}
+
+
+skillSection {padding: 0px 100px;}
+.skillSection h2{font-weight: 900;}
+.skillSection .countSpiner{width: 150px !important; margin: auto;}
