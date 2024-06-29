@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import { CircularProgressbar,buildStyles  } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 const About=()=>{
   const percentage = 66;
 return (
@@ -231,6 +232,31 @@ return (
 
         </span>
       </div>
+
+      <br/> <br/>
+      <div className='experienceSection'>
+        <h2 className="text-white text-center">EXPERIENCE & EDUCATION</h2>
+
+        <div className='row'>
+          <div className='col-md-6'>
+          <div className="box d-flex">
+            <div className='left'>
+              <span className='icon rounded-circle d-flex align-items-center justify-content-center'>
+                <BusinessCenterIcon/>
+              </span>
+            </div>
+            <div className='right pl-4'>
+              <span className='badge badge-default'>MARCH 2023- AUG 2023</span>
+              <h4 className='mt-3 mb-3'>WEBDEVELOPER &nbsp; - &nbsp; <span>QUALIFIER.CO.IN</span></h4>
+              <p className='text-white'>Created a Website and Android App to practice question for various exam.
+                 A Complete Dynamic WebApp with Admin panel to add category, course, question, blog, etc.</p>
+            </div>
+
+          </div>
+          </div>
+        </div>
+      </div>
+      <br/> <br/> <br/> <br/>
 
       </div>
       </section>
