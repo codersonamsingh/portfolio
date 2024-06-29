@@ -94,14 +94,21 @@ return (
         
       </div>
 
-      <br/>
+      <br/>  <br/> <br/>
+      <div className='d-flex'>
+        <span className='divider'>
+
+        </span>
+      </div>
+
+      
       {/* skills secgtion start here */}
       <div className='skillSection mt-5'>
         <h2 className='text-white text-center'>MY SKILLS</h2>
 
         <div className='row'>
           <div className='col-md-3 d-flex flex-column'>
-          <CircularProgressbar value={65} text={`${65}%`} 
+          <CircularProgressbar value={55} text={`${55}%`} 
           className='countSpiner'
           styles={buildStyles({
    
@@ -109,15 +116,121 @@ return (
                  textColor: '#fff',
                  trailColor: '#252525',
   
-  })}
-  />
-        <br/>
-        <h4 className='text-white text-center m-auto'>HTML</h4>
-          </div>
+                  })}
+                />
+            <br/>
+             <h4 className='text-white text-center m-auto'>HTML</h4>
+                </div>
+
+                <div className='col-md-3 d-flex flex-column'>
+          <CircularProgressbar value={75} text={`${75}%`} 
+          className='countSpiner'
+          styles={buildStyles({
+   
+                 pathColor: `#fa5b0f`,
+                 textColor: '#fff',
+                 trailColor: '#252525',
+  
+                  })}
+                />
+            <br/>
+             <h4 className='text-white text-center m-auto'>JAVASCRIPT</h4>
+                </div>
+                <div className='col-md-3 d-flex flex-column'>
+          <CircularProgressbar value={70} text={`${70}%`} 
+          className='countSpiner'
+          styles={buildStyles({
+   
+                 pathColor: `#fa5b0f`,
+                 textColor: '#fff',
+                 trailColor: '#252525',
+  
+                  })}
+                />
+            <br/>
+             <h4 className='text-white text-center m-auto'>NODEJS</h4>
+                </div>
+                <div className='col-md-3 d-flex flex-column'>
+          <CircularProgressbar value={60} text={`${60}%`} 
+          className='countSpiner'
+          styles={buildStyles({
+   
+                 pathColor: `#fa5b0f`,
+                 textColor: '#fff',
+                 trailColor: '#252525',
+  
+                  })}
+                />
+            <br/>
+             <h4 className='text-white text-center m-auto'>REACTJS</h4>
+                </div>
+                <div className='col-md-3 d-flex flex-column'>
+          <CircularProgressbar value={55} text={`${55}%`} 
+          className='countSpiner'
+          styles={buildStyles({
+   
+                 pathColor: `#fa5b0f`,
+                 textColor: '#fff',
+                 trailColor: '#252525',
+  
+                  })}
+                />
+            <br/>
+             <h4 className='text-white text-center m-auto'>NEXTJS</h4>
+                </div>
+                <div className='col-md-3 d-flex flex-column'>
+          <CircularProgressbar value={45} text={`${45}%`} 
+          className='countSpiner'
+          styles={buildStyles({
+   
+                 pathColor: `#fa5b0f`,
+                 textColor: '#fff',
+                 trailColor: '#252525',
+  
+                  })}
+                />
+            <br/>
+             <h4 className='text-white text-center m-auto'>MONGODB</h4>
+                </div>
+                <div className='col-md-3 d-flex flex-column'>
+          <CircularProgressbar value={40} text={`${40}%`} 
+          className='countSpiner'
+          styles={buildStyles({
+   
+                 pathColor: `#fa5b0f`,
+                 textColor: '#fff',
+                 trailColor: '#252525',
+  
+                  })}
+                />
+            <br/>
+             <h4 className='text-white text-center m-auto'>REACT-NATIVE</h4>
+                </div>
+                <div className='col-md-3 d-flex flex-column'>
+          <CircularProgressbar value={30} text={`${30}%`} 
+          className='countSpiner'
+          styles={buildStyles({
+   
+                 pathColor: `#fa5b0f`,
+                 textColor: '#fff',
+                 trailColor: '#252525',
+  
+                  })}
+                />
+            <br/>
+             <h4 className='text-white text-center m-auto'>CSS</h4>
+                </div>
         </div>
 
       </div>
       {/* skills secgtion end here */}
+
+      <br/>  <br/> <br/>
+      <div className='d-flex'>
+        <span className='divider'>
+
+        </span>
+      </div>
 
       </div>
       </section>

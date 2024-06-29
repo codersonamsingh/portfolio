@@ -50,10 +50,10 @@ right: 0px; z-index: -1; transition: all 0.3s ease-in-out;}
 
  nav{position: fixed; top: 20%; right: 0%; z-index: 1000;}
 
-.aboutPage{padding: 55px 0px;}
+.aboutPage{padding: 55px 100px;}
 .aboutPage h2{font-size: 25px; margin-bottom: 25px;}
 
-.aboutWrapper{padding: 0px 100px;}
+
 .aboutWrapper .part1 h4{color: rgba(255,255,255,0.7);font-size: 16px; margin-bottom: 20px;}
 .aboutWrapper .part1 h4 span{color: #fff;}
 .aboutWrapper .part1 h4 .smm{font-size: 15px;}
@@ -67,6 +67,11 @@ right: 0px; z-index: -1; transition: all 0.3s ease-in-out;}
 position: relative; top: 5px;}
 
 
-skillSection {padding: 0px 100px;}
+
 .skillSection h2{font-weight: 900;}
-.skillSection .countSpiner{width: 150px !important; margin: auto;}
+.skillSection .countSpiner{width: 120px !important; margin: auto;}
+
+.skillSection .col-md-3{margin: 30px 0px;}
+.skillSection .col-md-3 h4{font-size: 16px;}
+
+.divider{width: 40%; height: 1px; background: rgba(255, 255, 255, 0.1); margin: auto;}
