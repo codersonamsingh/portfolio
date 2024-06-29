@@ -75,10 +75,12 @@ position: relative; top: 5px;}
 .skillSection .col-md-3 h4{font-size: 16px;}
 
 .divider{width: 40%; height: 1px; background: rgba(255, 255, 255, 0.1); margin: auto;}
+
+.experienceSection .box{margin: 30px 0px;}
 .experienceSection .box .badge{ background: #252525 !important; color: #fff !important; border-radius: 10px !important;
 text-align: center; padding: 7px 10px !important;}
 
-.experienceSection .box h4{font-size: 18px; color: #fff; font-weight: 600;}
+.experienceSection .box h4{font-size: 18px; color: #fff; font-weight: 500;}
 .experienceSection .box h4 span{font-size: 15px; opacity: 0.8;}
 .experienceSection .box p{font-weight: 200; opacity: 0.7;}
 .experienceSection .box .icon{background: #fa5b0f; width: 40px; height: 40px; position: relative;}

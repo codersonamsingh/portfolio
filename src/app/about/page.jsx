@@ -253,6 +253,85 @@ return (
             </div>
 
           </div>
+
+          <div className="box d-flex">
+            <div className='left'>
+              <span className='icon rounded-circle d-flex align-items-center justify-content-center'>
+                <BusinessCenterIcon/>
+              </span>
+            </div>
+            <div className='right pl-4'>
+              <span className='badge badge-default'>NOV 2023- FEB 2024</span>
+              <h4 className='mt-3 mb-3'>WEBDEVELOPER &nbsp; - &nbsp; <span>asnitcorporates.com</span></h4>
+              <p className='text-white'>ASN IT is a comprehensive IT and data management service provider specializing in data entry, document scanning, BPO services, web development, and digital marketing. They focus on delivering high-quality, timely, and cost-effective solutions to their clients. ASN IT aims to establish itself as a trusted partner in the BPO industry, offering services like telemarketing, inbound and outbound call center support,
+                 SEO marketing, and mobile app development to enhance business performance and customer satisfaction.</p>
+            </div>
+
+          </div>
+          <div className="box d-flex">
+            <div className='left'>
+              <span className='icon rounded-circle d-flex align-items-center justify-content-center'>
+                <BusinessCenterIcon/>
+              </span>
+            </div>
+            <div className='right pl-4'>
+              <span className='badge badge-default'>AUG 2023- DEC 2023</span>
+              <h4 className='mt-3 mb-3'>WEBDEVELOPER &nbsp; - &nbsp; <span>SOFTECHINFRA</span></h4>
+              <p className='text-white'>Started a Freelance Company, Worked in various client project.
+                Some of them are :
+                merekisan : A Insurance CRM WebApp for Reliance General Insurance where Admin can create multiple user and manage their profile. User was call center employee who used to fill the form for Insurance Claim of their customer, and Admin was able to download all the entry in Excel apart from this there was various feature to support this like keeping call recordings
+                 BrickMaster : A WebApp for Bricklin owner, where he can add his various Employee and manage their profile. and Employee use to enter all the work they have done, manager use to manage all the transaction happened there, print the bill etc.</p>
+            </div>
+
+          </div>
+          </div>
+
+          <div className='col-md-6'>
+          <div className="box d-flex">
+            <div className='left'>
+              <span className='icon rounded-circle d-flex align-items-center justify-content-center'>
+                <BusinessCenterIcon/>
+              </span>
+            </div>
+            <div className='right pl-4'>
+              <span className='badge badge-default'>MARCH 2024- MARCH 2027</span>
+              <h4 className='mt-3 mb-3'>B.SC. &nbsp; - &nbsp; <span>IN COMPUTER SCIENCE</span></h4>
+              <p className='text-white'>Created a Website and Android App to practice question for various exam.
+                 A Complete Dynamic WebApp with Admin panel to add category, course, question, blog, etc.</p>
+            </div>
+
+          </div>
+
+          <div className="box d-flex">
+            <div className='left'>
+              <span className='icon rounded-circle d-flex align-items-center justify-content-center'>
+                <BusinessCenterIcon/>
+              </span>
+            </div>
+            <div className='right pl-4'>
+              <span className='badge badge-default'>NOV 2023- FEB 2024</span>
+              <h4 className='mt-3 mb-3'>WEBDEVELOPER &nbsp; - &nbsp; <span>asnitcorporates.com</span></h4>
+              <p className='text-white'>ASN IT is a comprehensive IT and data management service provider specializing in data entry, document scanning, BPO services, web development, and digital marketing. They focus on delivering high-quality, timely, and cost-effective solutions to their clients. ASN IT aims to establish itself as a trusted partner in the BPO industry, offering services like telemarketing, inbound and outbound call center support,
+                 SEO marketing, and mobile app development to enhance business performance and customer satisfaction.</p>
+            </div>
+
+          </div>
+          <div className="box d-flex">
+            <div className='left'>
+              <span className='icon rounded-circle d-flex align-items-center justify-content-center'>
+                <BusinessCenterIcon/>
+              </span>
+            </div>
+            <div className='right pl-4'>
+              <span className='badge badge-default'>AUG 2023- DEC 2023</span>
+              <h4 className='mt-3 mb-3'>WEBDEVELOPER &nbsp; - &nbsp; <span>SOFTECHINFRA</span></h4>
+              <p className='text-white'>Started a Freelance Company, Worked in various client project.
+                Some of them are :
+                merekisan : A Insurance CRM WebApp for Reliance General Insurance where Admin can create multiple user and manage their profile. User was call center employee who used to fill the form for Insurance Claim of their customer, and Admin was able to download all the entry in Excel apart from this there was various feature to support this like keeping call recordings
+                 BrickMaster : A WebApp for Bricklin owner, where he can add his various Employee and manage their profile. and Employee use to enter all the work they have done, manager use to manage all the transaction happened there, print the bill etc.</p>
+            </div>
+
+          </div>
           </div>
         </div>
       </div>
