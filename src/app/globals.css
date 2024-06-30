@@ -87,3 +87,4 @@ text-align: center; padding: 7px 10px !important;}
 .experienceSection .box .icon::after{content: ''; width: 1px; height: 85px; background: rgba(255, 255, 255, 0.1);
 position: absolute; top: 100%; left: 50%;}
 .experienceSection .box .icon svg{color: #fff !important;}
+.experienceSection .box:hover .icon{background: rgba(255, 255, 255, 0.2);}
