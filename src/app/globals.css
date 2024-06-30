@@ -83,8 +83,9 @@ text-align: center; padding: 7px 10px !important;}
 .experienceSection .box h4{font-size: 18px; color: #fff; font-weight: 500;}
 .experienceSection .box h4 span{font-size: 15px; opacity: 0.8;}
 .experienceSection .box p{font-weight: 200; opacity: 0.7;}
-.experienceSection .box .icon{background: #fa5b0f; width: 40px; height: 40px; position: relative;}
+.experienceSection .box .icon{background: #fa5b0f; width: 40px; height: 40px; position: relative; transition: all 0.3s ease;}
 .experienceSection .box .icon::after{content: ''; width: 1px; height: 85px; background: rgba(255, 255, 255, 0.1);
 position: absolute; top: 100%; left: 50%;}
 .experienceSection .box .icon svg{color: #fff !important;}
 .experienceSection .box:hover .icon{background: rgba(255, 255, 255, 0.2);}
+
