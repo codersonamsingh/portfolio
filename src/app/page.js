@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import { TypeAnimation } from 'react-type-animation';
+import Link from '@mui/material/Link';
 
 
 
@@ -60,8 +61,10 @@ export default function Home() {
             <br/>
 
              <div className='d-flex align items center'>
+            <Link href={'/about'}>
             <Button className='btn-common iconBtn'>More About Me <span className='icon d-flex align-item-center 
             justify-content-center'><ArrowForwardIcon/></span></Button>
+            </Link>
             <Button className='btn-common iconBtn ml-4'>Download CV <span className='icon d-flex align-item-center 
             justify-content-center'><FileDownloadOutlinedIcon/></span></Button>
             

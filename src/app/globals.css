@@ -99,5 +99,5 @@ position: absolute; top: 100%; left: 50%;}
   opacity: 0.5;}
 
 .portfolioPage .wrapper{display: flex; flex-wrap: wrap; gap: 25px;}  
-.portfolioPage .wrapper .box{width: 30%; height: 180px; background: #ccc; border-radius: 10px;}
-
+.portfolioPage .wrapper .box{width: 30%; height: 180px; background: #ccc; border-radius: 10px; overflow: hidden;}
+.portfolioPage .wrapper .box:hover img{ transform: scale(1.2) rotate(-10deg);}
