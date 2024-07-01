@@ -110,3 +110,8 @@ color: #fff; font-size: 20px; font-weight: 700;}
 .portfolioPage .wrapper .box img{width: 100% !important; height: auto !important; transition: all 0.3 ease-in-out;}
 .portfolioPage .wrapper .box:hover img{ transform: scale(1.2);}
 .portfolioPage .wrapper .box:hover .overlay{opacity: 1;}
+
+.contactPage p{ font-weight: 200 !important;}
+.contactPage .info svg{color: #fa5b0f !important; font-size: 40px !important;}
+.contactPage .info span{font-size: 16px !important; color: #fff; opacity: 0.7;}
+.contactPage .info label{font-size: 16px !important; color: #fff; margin: 0px;}
