@@ -99,5 +99,14 @@ position: absolute; top: 100%; left: 50%;}
   opacity: 0.5;}
 
 .portfolioPage .wrapper{display: flex; flex-wrap: wrap; gap: 25px;}  
-.portfolioPage .wrapper .box{width: 30%; height: 180px; background: #ccc; border-radius: 10px; overflow: hidden;}
-.portfolioPage .wrapper .box:hover img{ transform: scale(1.2) rotate(-10deg);}
+.portfolioPage .wrapper .box{width: 30%; height: 180px; background: #ccc; border-radius: 10px; overflow: hidden;
+position: relative; cursor: pointer;}
+.portfolioPage .wrapper .box img{width: 100% !important; height: auto !important; transition: all 0.3 ease-in-out;}
+.portfolioPage .wrapper .box .overlay{position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background: rgba(255, 255, 255, 0.7); z-index: 100%; opacity: 0;
+transition: all 0.3s ease-in-out;}
+.portfolioPage .wrapper .box .overlay svg{color: #fa5b0f !important; font-size: 40px !important;}
+.portfolioPage .wrapper .box .overlay h3{position: absolute; bottom: 10px; left: 0px; width: 100%; text-align: center;
+color: #fff; font-size: 20px; font-weight: 700;}
+.portfolioPage .wrapper .box img{width: 100% !important; height: auto !important; transition: all 0.3 ease-in-out;}
+.portfolioPage .wrapper .box:hover img{ transform: scale(1.2);}
+.portfolioPage .wrapper .box:hover .overlay{opacity: 1;}

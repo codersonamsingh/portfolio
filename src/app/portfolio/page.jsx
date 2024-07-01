@@ -1,4 +1,5 @@
 import Image from "next/image";
+import LinkIcon from '@mui/icons-material/Link';
 const Portfolio = () => {
     return(
         <section className="portfolioPage">
@@ -15,9 +16,14 @@ const Portfolio = () => {
                     <Image 
                           src="/Image/qualifier.png"
                           alt="Image"
+                          
                 width={355}
                 height={180}
+                       
                     />
+                     <div className="overlay d-flex align-items-center justify-content-center">
+                        <LinkIcon/>
+                     </div>
                 </div>
 
                 <div className="box">
@@ -28,6 +34,9 @@ const Portfolio = () => {
                 width={355}
                 height={180}
                     />
+                    <div className="overlay d-flex align-items-center justify-content-center">
+                        <LinkIcon/>
+                     </div>
                     
                 </div>
 
@@ -38,6 +47,9 @@ const Portfolio = () => {
                 width={355}
                 height={180}
                     />
+                    <div className="overlay d-flex align-items-center justify-content-center">
+                        <LinkIcon/>
+                     </div>
                 </div>
 
                 <div className="box">
@@ -47,6 +59,9 @@ const Portfolio = () => {
                 width={355}
                 height={180}
                     />
+                    <div className="overlay d-flex align-items-center justify-content-center">
+                        <LinkIcon/>
+                     </div>
                 </div>
                 <div className="box">
                 <Image 
@@ -55,6 +70,9 @@ const Portfolio = () => {
                 width={355}
                 height={180}
                     />
+                    <div className="overlay d-flex align-items-center justify-content-center">
+                        <LinkIcon/>
+                     </div>
                 </div>
                 
 
@@ -65,6 +83,9 @@ const Portfolio = () => {
                 width={355}
                 height={180}
                     />
+                    <div className="overlay d-flex align-items-center justify-content-center">
+                        <LinkIcon/>
+                     </div>
                     </div>
              </div>
 
