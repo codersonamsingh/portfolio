@@ -1,5 +1,10 @@
 import DraftsIcon from '@mui/icons-material/Drafts';
-import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
+import PhoneIcon from '@mui/icons-material/Phone';
+import Button from '@mui/material/Button';
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 const Contact = () => {
     return(
         <section className="aboutPage contactPage">
@@ -26,16 +31,63 @@ const Contact = () => {
                     </div>
 
                     <div className="d-flex align-item-center info flex-column mt-4">
-                           <ContactPhoneIcon/>
+                           <PhoneIcon/>
                        <div className='pl-3 d-flex flex-column'>
                           <span>CALL ME</span>
                           <label>+91 9572965040</label>
                          </div>
                     </div>
 
+                    <ul className='list list-inline socials'>
+                        <li className='list-inline-item'> 
+                        <Button><FaFacebookF/></Button>
+
+                        </li>
+
+                        <li className='list-inline-item'> 
+                        <Button><FaTwitter/></Button>
+
+                        </li>
+                        <li className='list-inline-item'> 
+                        <Button><FaYoutube/></Button>
+
+                        </li>
+                        <li className='list-inline-item'> 
+                        <Button><FaLinkedinIn/></Button>
+
+                        </li>
+                    </ul>
+
+                    
+
             </div>
 
                  <div className="col-md-8">
+
+                    <form>
+                        <div className='row'>
+                            <div className='col'>
+                                <input type='text' placeholder='YOUR NAME' className='input'></input>
+
+                            </div>
+
+                            <div className='col'>
+                                <input type='text' placeholder='YOUR EMAIL' className='input'></input>
+
+                            </div>
+                            <div className='col'>
+                                <input type='text' placeholder='SUBJECT' className='input'></input>
+
+                            </div>
+                         </div>
+                            <div className='row mt-4'>
+                                <div className='col-md-12'>
+                                    <textarea placeholder='YOUR MESSAGE' className='input'></textarea>
+                                </div>
+                            </div>
+                       
+
+                    </form>
 
                 </div>
 
