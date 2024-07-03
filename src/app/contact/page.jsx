@@ -6,6 +6,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import Button from '@mui/material/Button';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
+import { IoIosSend } from "react-icons/io";
 
 const Contact = () => {
     return(
@@ -89,7 +90,7 @@ const Contact = () => {
                                 <br/>
 
                                 <Button className='btn-common iconBtn'>Download CV <span className='icon d-flex align-item-center 
-            justify-content-center'><FileDownloadOutlinedIcon/></span></Button>
+                                           justify-content-center'><IoIosSend/></span></Button>
 
                             </div>
                        
