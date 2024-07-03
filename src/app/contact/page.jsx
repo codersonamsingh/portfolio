@@ -1,10 +1,12 @@
 import DraftsIcon from '@mui/icons-material/Drafts';
 import PhoneIcon from '@mui/icons-material/Phone';
-import Button from '@mui/material/Button';
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import Button from '@mui/material/Button';
+import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
+
 const Contact = () => {
     return(
         <section className="aboutPage contactPage">
@@ -84,9 +86,14 @@ const Contact = () => {
                                 <div className='col-md-12'>
                                     <textarea placeholder='YOUR MESSAGE' className='input'></textarea>
                                 </div>
+                                <br/>
+
+                                <Button className='btn-common iconBtn'>Download CV <span className='icon d-flex align-item-center 
+            justify-content-center'><FileDownloadOutlinedIcon/></span></Button>
+
                             </div>
                        
-
+                           
                     </form>
 
                 </div>
