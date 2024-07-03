@@ -54,7 +54,7 @@ export default function Home() {
             </div>
 
 
-            <p className='text-white'>I'm a Tunisian based web designer & front-end developer focused on crafting clean
+            <p className='text-white'>I&apos;m a Tunisian based web designer & front-end developer focused on crafting clean
               & user friendly experiences, I am passionate about building excellent software that improve the lives
               of those around me.
             </p>
