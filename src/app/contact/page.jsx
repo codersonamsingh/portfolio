@@ -7,7 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import Button from '@mui/material/Button';
 import { IoIosSend } from "react-icons/io";
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 
 
 
