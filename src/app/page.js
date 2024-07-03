@@ -25,7 +25,7 @@ export default function Home() {
             <div className='d-flex'>
               <span className='line mr-4'></span>
             <h1 className='text-white font-weight-bold mt-0'><span className='text-common d-block'>
-              I'M SONAM SINGH.</span>
+              I&apos;M SONAM SINGH.</span>
               <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
