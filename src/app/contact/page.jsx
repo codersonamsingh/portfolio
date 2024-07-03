@@ -1,3 +1,4 @@
+"use client"
 import DraftsIcon from '@mui/icons-material/Drafts';
 import PhoneIcon from '@mui/icons-material/Phone';
 import { FaFacebookF } from "react-icons/fa";
@@ -5,10 +6,21 @@ import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import Button from '@mui/material/Button';
-import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import { IoIosSend } from "react-icons/io";
+import { useForm, ValidationError } from '@formspree/react';
+
+
+
 
 const Contact = () => {
+
+    const [state, handleSubmit] = useForm("xqkragvn");
+    if (state.succeeded) {
+         setTimeout(() => {
+            window.location.reload()
+         }, 3000);
+        return <h4 className='text-center text-white' style={{paddingTop:'250px'}}>Thanks for joining!</h4>;
+    }
     return(
         <section className="aboutPage contactPage">
       <div className="container-fluid">
@@ -66,32 +78,32 @@ const Contact = () => {
             </div>
 
                  <div className="col-md-8">
-
-                    <form>
+                 
+                 <br/> <br/>
+                    <form onSubmit={handleSubmit}>
                         <div className='row'>
                             <div className='col'>
-                                <input type='text' placeholder='YOUR NAME' className='input'></input>
+                                <input type='text' placeholder='YOUR NAME' className='input' id='name' name='name'></input>
 
                             </div>
 
                             <div className='col'>
-                                <input type='text' placeholder='YOUR EMAIL' className='input'></input>
+                                <input type='email' placeholder='YOUR EMAIL' className='input' id='email' name='email'></input>
 
                             </div>
                             <div className='col'>
-                                <input type='text' placeholder='SUBJECT' className='input'></input>
+                                <input type='text' placeholder='SUBJECT' className='input' id='subject' name='subject'></input>
 
                             </div>
                          </div>
                             <div className='row mt-4'>
                                 <div className='col-md-12'>
-                                    <textarea placeholder='YOUR MESSAGE' className='input'></textarea>
+                                    <textarea placeholder='YOUR MESSAGE' className='input' id='message' name='message'></textarea>
+                                    <br/>  <br/>
+
+                                    <Button className='btn-common iconBtn' type='submit' disabled={state.submitting}>SEND MESSAGE <span className='icon d-flex align-item-center 
+                                    justify-content-center'><IoIosSend/></span></Button>
                                 </div>
-                                <br/>
-
-                                <Button className='btn-common iconBtn'>Download CV <span className='icon d-flex align-item-center 
-                                           justify-content-center'><IoIosSend/></span></Button>
-
                             </div>
                        
                            

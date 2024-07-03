@@ -10,9 +10,9 @@ body{background: #111111; font-family: "Poppins", sans-serif;}
 .btn-common{padding: 10px 25px !important; color: #fff; border: 1px solid #fa5b0f; border-radius: 30px !important;
 font-weight: 600 !important; position: relative; margin-top: 20px;}
 
-.btn-common .icon{position: absolute; top: 0px; right: 5px; background: #fa5b0f; border-radius: 100%; width: 35px;
-height: 35px; margin-top: 5px;}
-.btn-common .icon svg{color: #fff !important; font-size: 30px !important;}
+.btn-common .icon{position: absolute; top: 0px; right: 5px; background: #fa5b0f; border-radius: 100%; width: 40px;
+height: 40px; margin-top: 2px;}
+.btn-common .icon svg{color: #fff !important; font-size: 32px !important; margin-top: auto;}
 
 .iconBtn{padding-right: 60px !important; overflow: hidden;}
 .iconBtn::after{content: ''; width: 0px; height: 100%; background: #fa5b0f; position: absolute; top: 0px;
@@ -117,11 +117,11 @@ color: #fff; font-size: 20px; font-weight: 700;}
 .contactPage .info label{font-size: 16px !important; color: #fff; margin: 0px;}
 
 .socials li{margin-right: 15px !important;}
-.socials li button{border-radius: 100% !important; color: #fff; background: rgba(255, 255, 255, 0.1) !important;
-min-height: 40px !important; width: 40px !important; height: 40px !important; transition: all 0.3 ease-in-out;}
-.socials li button svg{font-size: 20px !important;}
+.socials li button{border-radius: 100% !important; color: #fff; background: rgba(255, 255, 255, 0.1) !important; width: 40px !important;
+   height: 50px !important; transition: all 0.3 ease-in-out;}
+.socials li button svg{font-size: 25px !important;}
 .socials li button:hover{background: #fa5b0f !important;}
-
+.contactPage{padding: 70px 35px !important;}
 .contactPage form{width: 100%;}
 .contactPage form .input{color: rgba(255, 255, 255, 0.9); width: 100%; height: 46px; background: #252525;
 border-radius: 30px !important; border: 0px !important; outline: none !important; padding: 0px 20px !important;
